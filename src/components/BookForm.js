@@ -57,11 +57,11 @@ const BookForm = (props) => {
                 break;
 
             case 'price':
-                if (value === '' || value.match(/^\d{1, }(\. \d{0,2})?$/)) {
-                    setBook((prevState) => ({
+                if (value === '' || value.match(/^\d{1,}(\.\d{0,2})?$/)){
+                    setBook((prevState) =>({
                         ...prevState,
                         [name]: value
-                    }));
+                    }))
                 }
                 break;
 
