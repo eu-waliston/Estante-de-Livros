@@ -40,7 +40,7 @@ const BookForm = (props) => {
             props.handleOnSubmit(book);
 
         } else {
-            errorMsg = 'Please fill out all the fields.';
+            errorMsg = 'Please fill out all the fields!';
         }
 
         setErrorMsg(errorMsg);

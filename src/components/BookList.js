@@ -13,7 +13,7 @@ const BookList = () => {
     return (
         <React.Fragment>
             <div className="book-list">
-                {!_.isEmpty(books) ? (books.map((book) => ( <Book key={book.id} {...book} handleRemoveBook={handleRemoveBook} /> )) ) : ( <p className="message">No books available Plaese add some books</p>)}
+                {!_.isEmpty(books) ? (books.map((book) => ( <Book key={book.id} {...book} handleRemoveBook={handleRemoveBook} /> )) ) : ( <p className="message"><span>No books </span> available, Plaese add some books!</p>)}
             </div>
         </React.Fragment>
     )
