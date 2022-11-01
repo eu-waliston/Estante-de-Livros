@@ -2,11 +2,8 @@
 
 <h3>Projeto em construção<h3 !!!! />
 
-proximos passos;
-
-
-## Features
-
+proximos passos:
+  
 - Light/dark mode toggle
 - Responsivity
 - Fullscreen mode
