@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-*{
+
+* {
     font-family: 'Josefin Sans', sans-serif !important;
-    
+
 }
+
 body {
     background-color: var(--bg-primary);
 }
+
 :root {
-    --bg-primary: #3D3A3A; 
+    --bg-primary: #3D3A3A;
     --btn-background: #094A53;
     --font-color: #fff;
 }
@@ -49,7 +52,7 @@ h1 {
     color: #fff;
 }
 
-.book-list{
+.book-list {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     position: relative;
@@ -69,7 +72,7 @@ h1 {
     left: 100%;
     top: 100%;
 
-    
+
 }
 
 span {
@@ -77,6 +80,7 @@ span {
     padding: 10px;
     border-radius: 50px;
 }
+
 .book-title {
     font-weight: bold;
     background-color: var(--font-color);
@@ -84,6 +88,7 @@ span {
     color: var(--btn-background);
     border-radius: 5px;
 }
+
 .book {
     background-color: var(--btn-background);
     color: var(--font-color);
@@ -102,12 +107,12 @@ span {
     margin-left: 35%;
 }
 
-.submit-btn{
+.submit-btn {
     background-color: var(--btn-background);
     border: var(--btn-background);
     width: 150px;
     position: relative;
-    margin-left:  35%;
+    margin-left: 35%;
 }
 
 .errorMsg {
@@ -119,3 +124,73 @@ span {
     padding: 5px;
     border-radius: 5px;
 }
+
+
+/* Responsivity */
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        text-align: center !important;
+        margin-top: 3%;
+        font-size: 30px;
+
+        padding: 15px;
+        width: 430px;
+        position: relative;
+        left: 10px;
+
+    }
+
+    .link {
+        position: relative;
+        top: 50px;
+        left: 20%;
+    }
+
+    .message {
+        text-align: center;
+        position: relative;
+        width: 330px;
+        font-size: 25px;
+        left: -5%;
+        top: 100%;
+    
+    
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        position: relative;
+        margin-left: 20%;
+        margin-top: 20%;
+        row-gap: 5%;
+    }
+
+    .main-form {
+        width: 400px;
+        position: relative;
+        margin-top: 30%;
+        margin-left: 6%;
+    }
+
+    .errorMsg {
+        font-size: 25px;
+        margin-left: 10px;
+        width: 370px;
+    }
+    
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {}
+
+/* Laptop*/
+@media only screen and (max-width: 992px) {}
+
+/*Large Screen*/
+@media only screen and (max-width: 1200px) {}
