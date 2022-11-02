@@ -130,67 +130,293 @@ span {
 
 
 /* mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
 
     h1 {
-        text-align: center !important;
-        margin-top: 3%;
-        font-size: 30px;
-
-        padding: 15px;
-        width: 430px;
-        position: relative;
-        left: 10px;
-
+        font-size: 30px !important;
+        width: 430px !important;
+        left: 10px !important;
     }
 
     .link {
-        position: relative;
-        top: 50px;
-        left: 20%;
+        top: 50px!important;
+        left: 20% !important;
     }
 
     .message {
-        text-align: center;
-        position: relative;
         width: 330px;
-        font-size: 25px;
-        left: -5%;
-        top: 100%;
+        font-size: 25px !important;
+        left: -5% !important;
+        top: 100% !important;
     
     
     }
 
     .book-list {
-        display: grid;
-        grid-template-columns: repeat(1, 300px);
-        position: relative;
-        margin-left: 20%;
-        margin-top: 20%;
-        row-gap: 5%;
+        display: grid !important;
+        grid-template-columns: repeat(1, 300px) !important;
+        position: relative !important;
+        margin-left: 20% !important;
+        margin-top: 20% !important;
+        row-gap: 5% !important;
     }
 
     .main-form {
-        width: 400px;
-        position: relative;
-        margin-top: 30%;
-        margin-left: 6%;
+        width: 400px !important;
+        position: relative !important;
+        margin-top: 30% !important;
+        margin-left: 6% !important;
     }
 
     .errorMsg {
-        font-size: 25px;
-        margin-left: 10px;
-        width: 370px;
+        font-size: 25px !important;
+        margin-left: 10px !important;
+        width: 370px !important;
     }
     
 
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {}
+@media only screen and (min-width: 650px) {
+
+    h1 {
+        text-align: center !important;
+        margin-top: 3% !important;
+        font-weight: bolder !important;
+        font-size: 50px !important;
+
+        padding: 15px !important;
+        width: 700px !important;
+        position: relative !important;
+        left: 5% !important ;
+    
+    }
+
+    .link {
+
+        margin-left: 15px !important;
+        border-radius: 5px !important;
+        top: 50px !important;
+        left: 31% !important;
+    }
+
+    .message {
+        width: 550px !important;
+        font-size: 25px !important;
+        left: -7% !important;
+        top: 150% !important;
+    
+    
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(2, 300px) !important;
+        position: relative !important;
+        margin-left: 18% !important;
+        margin-top: 12% !important;
+        row-gap: 5% !important;
+        left: -7% !important;
+    }
+
+    .main-form {
+        width: 400px !important;
+        position: relative !important;
+        margin-top: 15% !important;
+        margin-left: 23% !important;
+    }
+
+    .errorMsg {
+        font-size: 25px !important;
+        margin-left: 13px !important;
+        width: 370px !important;
+    }
+}
 
 /* Laptop*/
-@media only screen and (max-width: 992px) {}
+@media only screen and (min-width: 992px ) {
+
+    h1 {
+        text-align: center !important;
+        margin-top: 3% !important;
+        font-weight: bolder !important;
+        font-size: 50px !important;
+
+        padding: 15px !important;
+        width: 700px !important;
+        position: relative !important;
+        left: 15% !important ;
+    
+    }
+
+    .link {
+
+        margin-left: 15px !important;
+        border-radius: 5px !important;
+        top: 50px !important;
+        left: 35% !important;
+    }
+
+    .message {
+        width: 550px !important;
+        font-size: 25px !important;
+        left: -7% !important;
+        top: 150% !important;
+    
+    
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(2, 300px) !important;
+        position: relative !important;
+        margin-left: 18% !important;
+        margin-top: 12% !important;
+        row-gap: 5% !important;
+        left: 2% !important;
+    }
+
+    .main-form {
+        width: 500px !important;
+        position: relative !important;
+        margin-top: 10% !important;
+        margin-left: 25% !important;
+    }
+
+    .errorMsg {
+        font-size: 25px !important;
+        margin-left: 70px !important;
+        width: 370px !important;
+    }
+}
 
 /*Large Screen*/
-@media only screen and (max-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+
+    h1 {
+        text-align: center !important;
+        margin-top: 3% !important;
+        font-weight: bolder !important;
+        font-size: 50px !important;
+
+        padding: 15px !important;
+        width: 700px !important;
+        position: relative !important;
+        left: 25% !important ;
+    
+    }
+
+    .link {
+
+        margin-left: 15px !important;
+        border-radius: 5px !important;
+        top: 50px !important;
+        left: 39% !important;
+    }
+
+    .message {
+        width: 550px !important;
+        font-size: 25px !important;
+        left: -7% !important;
+        top: 150% !important;
+    
+    
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(2, 300px) !important;
+        position: relative !important;
+        margin-left: 18% !important;
+        margin-top: 12% !important;
+        row-gap: 5% !important;
+        left: 10% !important;
+    }
+
+    .main-form {
+        width: 700px !important;
+        position: relative !important;
+        margin-top: 10% !important;
+        margin-left: 25% !important;
+    }
+
+    .errorMsg {
+        font-size: 25px !important;
+        margin-left: 155px !important;
+        width: 370px !important;
+    }
+
+    .submit-btn {
+
+        margin-left: 40%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+
+    h1 {
+        text-align: center !important;
+        margin-top: 3% !important;
+        font-weight: bolder !important;
+        font-size: 50px !important;
+
+        padding: 15px !important;
+        width: 700px !important;
+        position: relative !important;
+        left: 30% !important ;
+    
+    }
+
+    .link {
+
+        margin-left: 15px !important;
+        border-radius: 5px !important;
+        top: 50px !important;
+        left: 42% !important;
+    }
+
+    .message {
+        width: 550px !important;
+        font-size: 25px !important;
+        left: -7% !important;
+        top: 150% !important;
+    
+    
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(2, 300px) !important;
+        position: relative !important;
+        margin-left: 18% !important;
+        margin-top: 12% !important;
+        row-gap: 5% !important;
+        left: 16% !important;
+
+
+       
+    }
+
+    .main-form {
+        width: 700px !important;
+        position: relative !important;
+        margin-top: 10% !important;
+        margin-left: 30% !important;
+    }
+
+    .errorMsg {
+        font-size: 25px !important;
+        margin-left: 179px !important;
+        width: 370px !important;
+    }
+
+    .submit-btn {
+
+        margin-left: 41%;
+    }
+}
